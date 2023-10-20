@@ -3,11 +3,11 @@
 
 
 <h1> PARAMS</h1><br>
-<b> native = fivem native to call ( https://docs.fivem.net/natives/ ) </b><br>
-<b> interval = interval to call native in miliseconds </b><br>
-<b> native_args = the arguments to the native </b><br>
-<b> condition = function that return bool value that determines whether the thread should run </b><br>
-<b> return_cb = callback to which the return value of the native is passed </b><br>
+<b> @native = fivem native to call ( https://docs.fivem.net/natives/ ) </b><br>
+<b> @interval = interval to call native in miliseconds </b><br>
+<b> @native_args = the arguments to the native </b><br>
+<b> @condition = function that return bool value that determines whether the thread should run </b><br>
+<b> @return_cb = callback to which the return value of the native is passed </b><br>
 
 <br>
 
