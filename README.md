@@ -9,6 +9,8 @@
 <b> condition = function that return bool value that determines whether the thread should run </b><br>
 <b> return_cb = callback to which the return value of the native is passed </b><br>
 
+<br>
+
 
 SERVER-SIDE EXAMLPE<br>
 local thread = threads:create{ native  = ExecuteCommand, interval = 3000, native_args = { 'refresh'}, condition = function() return true  end, return_cb = function(retval)<br>
