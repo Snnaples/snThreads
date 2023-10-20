@@ -10,7 +10,7 @@ function threads:init()
     Citizen.CreateThread(function()
 
         while self.condition() do
-			if (self.yield) then  coroutine.yield() end 
+	    if (self.yield) then  coroutine.yield() end 
             self.return_cb(self.native(table.unpack(self.native_args)))
             Citizen.Wait(self.interval)
         end
